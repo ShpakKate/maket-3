@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    background: url(images/body.png) repeat-x;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #414042;
+}
+
+.container {
+    margin: 0;
+    width: 62rem;
+    height: 90rem;
+    background: url(images/backround.png) no-repeat;
+}
+
+.header {
+    margin: 0;
+    width: 60.5rem;
+    height: 10.5rem;
+    background: url(images/header.png) no-repeat;
+    text-align: end;
+}
+
+.head {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+
+.datetime {
+    width: 8.75rem;
+    height: 1.5rem;
+    background-image: url(images/datetime.png);
+    color: #b90d16;
+    text-align: center;
+    margin-left: auto;
+}
+    
+.datetime p {
+    margin: 0;
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.main {
+    margin: 1rem 0;
+}  
+
+p, a {
+    font-size: 0.7rem;
+    font-weight: 200;
+    line-height: 1rem;
+}
+
+.main h4, .main h4 {
+    color: #b7202e;
+    font-weight: 800;
+    font-stretch: condensed;
+}
+
+.aside {
+    position: absolute;
+    width: 15rem;
+    height: 68rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu, .useful, .contacts, .about-us, .banner, .news {
+    border: 0.15rem solid #c1c8cc;
+    border-radius: 0.5rem;
+}
+
+.menu, .useful, .contacts {
+    background-color: #f4f6f8;
+    margin: 0 1rem;
+    padding-bottom: 1rem;
+    text-align: end;
+}
+
+.menu {
+    background: url(images/red-menu.png) no-repeat ;
+}
+
+
+.menu .menu-link {
+    color: #ffffff;
+    font-size: 0.75rem;
+    text-decoration-line: none;
+}
+
+.menu ul li .menu-link {
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.menu ul li .menu-link:hover::after {
+    content: " ";
+    background-image: url(images/list-activ.png);
+    background-position: 0 -3px;
+    display: block;
+    flex-direction: row;
+    width: 15px;
+    height: 23px;
+}
+
+.menu ul {
+    margin: 1rem 2rem 1rem 0;
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+
+.useful ul {
+    margin-right: 2.5rem;
+    list-style-type: none;
+    line-height: 1.6rem;
+}
+
+.contacts div, .useful h4 {
+    margin: 1rem 2.5rem 0 0;
+}
+
+.contacts div p:first-child, .banner a {
+    color: #b7202e;
+    font-weight: 800;
+}
+
+.contacts div p {
+    margin: 0;
+    padding: 0;   
+}
+
+.contacts a, .nav a { 
+    color: #414042;
+    text-decoration-line: none;
+}
+
+.section {
+    width: 42rem;
+    padding-left: 18.5rem;
+    display: flex;
+}
+
+.section a {
+    color: #b7202e;
+}
+
+.section-1 {
+    margin-right: 2rem ;
+}
+
+.about-us, .banner {
+    height: 13rem;
+    margin-bottom: 1rem;
+    padding: 1rem; 
+}
+
+.about-us {
+    background-color: #bec3ca;
+    border: 0.2rem solid #c1c8cc;
+}
+
+.about-us h4 {
+    margin: 0;
+    text-align: center;
+}
+
+.about-us img {
+    float: left;
+    padding-right: 1rem;
+}
+
+.content h4 {
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+}
+
+.content ul {
+    margin: 0;
+    padding-left: 1rem;
+}
+
+.content li {
+    list-style-type: none;
+    list-style-image: url(images/marker.png)
+}
+
+.content div {
+    padding-bottom: 0.8rem
+}
+
+.content p {
+    margin: 0;
+}
+
+.banner, .news div {
+    background-color: #eaeef1;
+}
+
+.news div {
+    padding: 0.7rem;
+}
+
+.banner img {
+    padding-top: 0.5rem;
+}
+
+.news div:first-child {
+    border-bottom: 0.4rem double #c1c8cc;
+}
+
+.footer {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer p {
+    margin: 0;
+}
