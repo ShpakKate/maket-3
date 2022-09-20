@@ -118,7 +118,7 @@ p, a {
     flex-direction: row;
     width: 15px;
     height: 23px;
-    right: -19px;
+    right: -17px;
 }
 
 .useful ul {
@@ -129,6 +129,10 @@ p, a {
 
 .useful ul li a {
     color: #495e78;
+}
+
+.useful ul li a:hover {
+    text-decoration-line: none;
 }
 
 .contacts div, .useful h4 {
@@ -160,7 +164,7 @@ p, a {
     color: #b7202e;
 }
 
-.section-1 {
+.section-wrapper {
     margin-right: 2rem ;
 }
 
@@ -184,22 +188,22 @@ p, a {
     padding-right: 1rem;
 }
 
-.content h4 {
+.news-title {
     text-transform: uppercase;
     margin-bottom: 0.6rem;
 }
 
-.content ul {
+.news-container ul {
     margin: 0;
     padding-left: 1rem;
 }
 
-.content li {
+.news-container li {
     list-style-type: none;
     list-style-image: url(images/marker.png)
 }
 
-.content ul li a:hover {
+.news-link:hover {
     text-decoration-line: none;
 }
 
@@ -207,7 +211,7 @@ p, a {
     padding-bottom: 0.8rem
 }
 
-.content p {
+.news-content {
     margin: 0;
 }
 
