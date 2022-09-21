@@ -241,14 +241,26 @@ p, a {
     margin: 0;
 }
 
-.footer .nav a:hover {
+.nav {
+    width: 42rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #495e78;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link:hover {
     text-decoration-line: underline;
 }
 
-.footer a::after {
-    content: " | ";
+.nav-link::after {
+    content: "  |  ";
 }
 
-.footer a:last-child::after {
+.nav-link:last-child::after {
     content: " ";
 }
