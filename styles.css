@@ -244,3 +244,11 @@ p, a {
 .footer .nav a:hover {
     text-decoration-line: underline;
 }
+
+.footer a::after {
+    content: " | ";
+}
+
+.footer a:last-child::after {
+    content: " ";
+}
